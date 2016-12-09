@@ -1,7 +1,15 @@
 # Titanic_Kaggle_Group
 
-A project that predicts the likelyhood of Titanic survivors using the Python language
+The open source project we participated in is called the Titanic Disaster Machine Learning on Kaggle.com. For this project, the three of us used Python, three Anaconda packages for Python, Jupyter notebook, and Kaggle.com for submissions. The Jupyter notebook included all of the necessary libraries that we had to use in order to make our calculations, but the .py file in our github requires the user to download them.
 
+Our task was to train our machine to predict whether any particular individual survived the tragic crash of the Titanic. The algorithm uses predictor variables (sex, age, class, etc.) to determine the binary response (survived, did not survive) of individuals. 
+In order to build this program, we used Python language to read the train.csv file. Then we used the regression model in order create our predictions after it calculated the multiple variables related to the likelihood of an individual's survival. We used the model on the test.csv file and submitted our predictions to Kaggle to get a score.
+
+In order to run our program, the user must go to this website https://www.continuum.io/downloads and download Anaconda. The Anacondas package list include NumPy, Pandas, and Sklearn. NumPy is a fundamental package for scientific computing and Pandas is an open source data analysis tool for Python.  Sklearn contains the logistic regression that we use. Follow this github link (https://github.com/akane478/Titanic_Kaggle_Group), download the files, and write the command “python final_model.py” into the terminal after entering the correct directory. 
+
+The way our team collaborated and organized was fairly simple. Matt was the most skilled coder so he took the lead on head coder. He wrote and improved most of the code. Simon and Allie split responsibility for using analyzation, the Excel sheets, visualization using Jupyter, and documentation. We worked a little bit every week familiarizing ourselves with Python, Anaconda, the libraries, and Kaggle submissions. By the end of the last week, we were finalizing our code and making sure it ran smoothly. 
+
+__________________________________________________________________________________________________________________________________________
 Running this program requires 3 packages:
 
   1) Numpy
